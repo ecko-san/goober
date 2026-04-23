@@ -1,0 +1,15 @@
+{
+  "name": "goober",
+  "description": "lsan's personal skill toolkit for Claude Code",
+  "owner": {
+    "name": "lsan"
+  },
+  "plugins": [
+    {
+      "name": "pr-description",
+      "source": "./plugins/pr-description",
+      "description": "Generate PR descriptions from git changes",
+      "category": "development"
+    }
+  ]
+}
